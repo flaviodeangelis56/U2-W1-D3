@@ -1,0 +1,27 @@
+.divLorem {
+  background-color: #fbf7e3;
+  padding: 2rem;
+  color: #612406;
+  border-radius: 20px;
+}
+img {
+  width: 80%;
+  margin-left: 10%;
+}
+h2 {
+  margin-top: 0;
+  margin-inline: 10%;
+}
+p {
+  margin-inline: 10%;
+}
+@media screen and (min-width: 1200px) {
+  .divLorem {
+    display: flex;
+    flex-direction: row-reverse;
+    height: 50%;
+  }
+  img {
+    margin-left: 0%;
+  }
+}

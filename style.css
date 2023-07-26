@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: "Montserrat", sans-serif;
+}
+.bar {
+  display: flex;
+  background-color: #fbf7e3;
+  justify-content: space-around;
+  align-self: center;
+  height: 8rem;
+  align-items: center;
+}
+.shop {
+  width: 20%;
+  background-color: #f3df85;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  justify-content: space-between;
+  height: 100px;
+  padding-inline: 20px;
+}
+.HeaderImg {
+  width: 25%;
+  margin-inline: 10px;
+}
+.div {
+  background-color: #f3df85;
+  border-radius: 30px;
+}
+.headerH3 {
+  margin: 20px;
+}
+.pShop {
+  font-size: 180%;
+  margin-inline: 0;
+}
+h1 {
+  font-size: 350%;
+  margin-left: 3%;
+  color: #612406;
+}
+h2 {
+  font-size: 300%;
+  margin-left: 3%;
+  color: #612406;
+}
+/* cards */
+.cards {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf7e3;
+  width: 45%;
+  border-radius: 20%;
+  height: 390px;
+}
+
+div img {
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+}
+.cardBody {
+  padding: 2rem;
+}
+.cardText {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  margin: 0;
+  color: #612406;
+}
+p {
+  margin: 0;
+  color: #612406;
+}
+button {
+  margin-top: 10%;
+  margin-left: 4%;
+  width: 90%;
+  color: #612406;
+  background-color: #f3df85;
+  border: none;
+  border-radius: 20px;
+  height: 36px;
+}
+#n1 {
+  margin-top: 25%;
+}
+
+/* lastest news */
+.divLorem {
+  background-color: #fbf7e3;
+  padding: 2rem;
+  color: #612406;
+  border-radius: 20px;
+  margin-inline: 2%;
+}
+.newsImg {
+  width: 100%;
+  margin-left: 0;
+  border-radius: 0;
+}
+.newsH2 {
+  margin-top: 0;
+  margin-inline: 0;
+}
+.newsP {
+  margin-inline: 0;
+  margin-bottom: 5%;
+  font-size: 150%;
+}

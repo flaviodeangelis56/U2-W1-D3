@@ -1,0 +1,29 @@
+.bar {
+  display: flex;
+  background-color: #fbf7e3;
+  justify-content: space-around;
+  align-self: center;
+  border-radius: 20rem;
+  height: 8rem;
+  align-items: center;
+}
+.shop {
+  width: 20%;
+  background-color: #f3df85;
+  display: flex;
+  align-items: center;
+  border-radius: 60px;
+  justify-content: space-between;
+  height: 100px;
+}
+img {
+  width: 25%;
+  margin-inline: 20px;
+}
+.div {
+  background-color: #f3df85;
+  border-radius: 30px;
+}
+h3 {
+  margin-inline: 20px;
+}

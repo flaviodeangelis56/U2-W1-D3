@@ -1,0 +1,39 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #fbf7e3;
+  width: 20%;
+  border-radius: 20%;
+}
+div img {
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+}
+.cardBody {
+  padding: 2rem;
+}
+.cardText {
+  display: flex;
+  justify-content: space-between;
+}
+h3 {
+  margin: 0;
+  color: #612406;
+}
+p {
+  margin: 0;
+  color: #612406;
+}
+button {
+  margin-top: 10%;
+  margin-left: 4%;
+  width: 90%;
+  color: #612406;
+  background-color: #f3df85;
+  border: none;
+  border-radius: 20px;
+  height: 36px;
+}
+#n1 {
+  margin-top: 25%;
+}
